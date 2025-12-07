@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-example-plugin",
-  "version": "1.0.2",
-  "description": "A minimal Obsidian plugin template with complete professional infrastructure",
+  "name": "task-timer",
+  "version": "1.0.0",
+  "description": "A Task Timer plugin for Obsidian that adds time tracking to tasks",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -19,10 +19,12 @@
   "keywords": [
     "obsidian",
     "plugin",
-    "template",
-    "typescript"
+    "task",
+    "timer",
+    "time-tracking",
+    "productivity"
   ],
-  "author": "Your Name",
+  "author": "Fabian Kloosterman",
   "license": "MIT",
   "devDependencies": {
     "@types/jsdom": "^27.0.0",

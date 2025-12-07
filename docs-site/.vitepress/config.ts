@@ -1,60 +1,32 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'Obsidian Plugin Template',
-  description: 'Professional template for building Obsidian plugins',
-  base: '/obsidian-plugin-template/',
+  title: 'Task Timer Plugin',
+  description: 'A time tracking plugin for Obsidian that adds time tracking capabilities to tasks',
+  base: '/task-timer/',
 
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Template', link: '/template/getting-started' },
-      { text: 'Example', link: '/example/index' },
-      { text: 'Contributing', link: '/contributing/index' },
-      { text: 'GitHub', link: 'https://github.com/bright-fakl/obsidian-plugin-template' }
+      { text: 'GitHub', link: 'https://github.com/bright-fakl/task-timer-obsidian' }
     ],
 
     sidebar: [
       {
-        text: 'Template Usage',
-        collapsed: false,
+        text: 'Documentation',
         items: [
-          { text: 'Getting Started', link: '/template/getting-started' },
-          { text: 'Architecture', link: '/template/architecture' },
-          { text: 'Customization Guide', link: '/template/customization' },
-          { text: 'Testing Your Plugin', link: '/template/testing' },
-          { text: 'Deployment', link: '/template/deployment' },
-          { text: 'API Reference', link: '/template/api' }
-        ]
-      },
-      {
-        text: 'Example Plugin',
-        collapsed: true,
-        items: [
-          { text: 'Overview', link: '/example/index' },
-          { text: 'Installation', link: '/example/installation' },
-          { text: 'Usage', link: '/example/usage' },
-          { text: 'Configuration', link: '/example/configuration' }
-        ]
-      },
-      {
-        text: 'Contributing',
-        collapsed: true,
-        items: [
-          { text: 'How to Contribute', link: '/contributing/index' },
-          { text: 'Development Setup', link: '/contributing/development-setup' },
-          { text: 'Testing the Template', link: '/contributing/testing' }
+          { text: 'Overview', link: '/' }
         ]
       }
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 Your Name'
+      copyright: 'Copyright © 2024 Fabian Kloosterman'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/bright-fakl/obsidian-plugin-template' }
+      { icon: 'github', link: 'https://github.com/bright-fakl/task-timer-obsidian' }
     ]
   },
 

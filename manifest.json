@@ -1,10 +1,10 @@
 {
-  "id": "example-plugin",
-  "name": "Example Plugin",
-  "version": "1.0.2",
+  "id": "task-timer",
+  "name": "Task Timer",
+  "version": "1.0.0",
   "minAppVersion": "1.5.0",
-  "description": "A minimal example plugin demonstrating basic text transformation functionality",
-  "author": "Your Name",
-  "authorUrl": "https://github.com/yourusername",
+  "description": "Adds time tracking to tasks",
+  "author": "Fabian Kloosterman",
+  "authorUrl": "https://github.com/bright-fakl",
   "isDesktopOnly": false
 }

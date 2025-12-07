@@ -1,15 +1,39 @@
-# Obsidian Plugin Template
+# Task Timer Plugin
 
-A **production-ready** template for building Obsidian plugins with complete infrastructure.
+A **time tracking plugin** for Obsidian that adds time tracking capabilities to tasks.
 
-## 🚀 Quick Start
+## 🚀 Installation
 
-Get started in minutes:
+### From Obsidian Community Plugins
+
+1. Open Obsidian Settings
+2. Go to Community Plugins and disable Safe Mode
+3. Search for "Task Timer"
+4. Install and enable the plugin
+
+### Manual Installation
+
+1. Download the latest release from [GitHub](https://github.com/bright-fakl/task-timer-obsidian/releases)
+2. Extract the plugin files to your vault's `.obsidian/plugins/` directory
+3. Reload Obsidian and enable the plugin in Community Plugins
+
+## 📦 Features
+
+- ⏱️ **Time Tracking** - Track time spent on tasks
+- 📊 **Task Management** - Organize and manage tasks with time data
+- 📈 **Productivity Insights** - View time tracking statistics and reports
+- ⚙️ **Customizable Settings** - Configure the plugin to your needs
+
+## 📚 Documentation
+
+For complete documentation, visit: [https://bright-fakl.github.io/task-timer/](https://bright-fakl.github.io/task-timer/)
+
+## 🛠️ Development
 
 ```bash
-# Clone the template
-git clone https://github.com/bright-fakl/obsidian-plugin-template.git your-plugin-name
-cd your-plugin-name
+# Clone the repository
+git clone https://github.com/bright-fakl/task-timer-obsidian.git
+cd task-timer-obsidian
 
 # Install dependencies
 npm install
@@ -18,34 +42,14 @@ npm install
 npm run dev
 ```
 
-## 📦 Key Features
-
-- ✅ **TypeScript** - Type-safe development with strict mode
-- ✅ **Vitest** - Testing framework with Obsidian API mocks
-- ✅ **VitePress** - Professional documentation site
-- ✅ **GitHub Actions** - Automated releases and docs deployment
-- ✅ **Settings System** - Robust settings with migration support
-- ✅ **Example Plugin** - Working plugin demonstrating best practices
-
-## 📚 Documentation
-
-For complete documentation, visit: [https://bright-fakl.github.io/obsidian-plugin-template/](https://bright-fakl.github.io/obsidian-plugin-template/)
-
-### Quick Links
-
-- [📖 Getting Started Guide](https://bright-fakl.github.io/obsidian-plugin-template/template/getting-started)
-- [⚙️ Customization Guide](https://bright-fakl.github.io/obsidian-plugin-template/template/customization)
-- [🧪 Testing Your Plugin](https://bright-fakl.github.io/obsidian-plugin-template/template/testing)
-- [🚀 Deployment Guide](https://bright-fakl.github.io/obsidian-plugin-template/template/deployment)
-
 ## 🤝 Contributing
 
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📜 License
 
-This template is released under the [MIT License](LICENSE).
+This plugin is released under the [MIT License](LICENSE).
 
 ---
 
-**Happy plugin development!** 🎉
+**Happy task tracking!** ⏱️

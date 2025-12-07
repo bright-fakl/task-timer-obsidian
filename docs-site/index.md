@@ -1,59 +1,27 @@
-# Obsidian Plugin Template
+# Task Timer Plugin
 
-A production-ready template for building Obsidian plugins with complete infrastructure.
+A time tracking plugin for Obsidian that adds time tracking capabilities to tasks.
 
-## Choose Your Path
+## Features
 
-::: tip 🚀 Create a Plugin
+- ⏱️ **Time Tracking** - Track time spent on tasks
+- 📊 **Task Management** - Manage and organize your tasks with time data
+- 📈 **Productivity Insights** - View time tracking statistics and reports
 
-**[Plugin Development Guide](/template/getting-started)**
+## Installation
 
-Learn how to use this template to build your own Obsidian plugin with best practices, testing, and deployment automation.
+1. Download the latest release from GitHub
+2. Extract the plugin files to your Obsidian vault's `.obsidian/plugins/` directory
+3. Enable the plugin in Obsidian's Community Plugins settings
 
-*Perfect for developers creating new Obsidian plugins*
+## Usage
 
-:::
+*Documentation coming soon...*
 
-::: info 📖 Try the Example
+## Development
 
-**[Example Plugin Demo](/example/index)**
-
-See the template's example functionality (text transformation) in action.
-
-*Perfect for users trying out the example plugin*
-
-:::
-
-::: warning 🤝 Contribute
-
-**[Contributing Guide](/contributing/index)**
-
-Help improve this template for everyone.
-
-*Perfect for contributors to the template project*
-
-:::
-
----
-
-## What's Included
-
-This template provides a **complete, production-ready foundation**:
-
-- ✅ **TypeScript** - Type-safe development with strict mode
-- ✅ **Vitest** - Testing framework with Obsidian API mocks
-- ✅ **VitePress** - Professional documentation site
-- ✅ **GitHub Actions** - Automated releases and docs deployment
-- ✅ **Settings System** - Robust settings with migration support
-- ✅ **Example Plugin** - Working plugin demonstrating best practices
-
-## Quick Links
-
-- 📚 [GitHub Repository](https://github.com/bright-fakl/obsidian-plugin-template)
-- 📝 [Changelog](https://github.com/bright-fakl/obsidian-plugin-template/blob/main/CHANGELOG.md)
-- 🐛 [Report Issues](https://github.com/bright-fakl/obsidian-plugin-template/issues)
-- 💡 [Feature Requests](https://github.com/bright-fakl/obsidian-plugin-template/issues)
+This plugin is built with TypeScript and uses the Obsidian Plugin API.
 
 ## License
 
-This template is released under the [MIT License](https://github.com/bright-fakl/obsidian-plugin-template/blob/main/LICENSE).
+MIT License
