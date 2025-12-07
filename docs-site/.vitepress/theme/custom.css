@@ -1,0 +1,113 @@
+/* Custom styled details containers for VitePress */
+
+/* Base styling for all details elements */
+details {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #f8fafc;
+  overflow: hidden;
+}
+
+/* Optional variant - Orange theme */
+details.optional {
+  border-left: 4px solid #f97316;
+  background-color: #fff7ed;
+  border: 1px solid #fed7aa;
+}
+
+/* Manual variant - Blue theme */
+details.manual {
+  border-left: 4px solid #0891b2;
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+}
+
+/* Style the summary element (the clickable part) */
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #1e40af;
+  list-style: none; /* Remove default arrow */
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Color variants for summary */
+details.optional summary {
+  color: #f97316;
+}
+
+details.manual summary {
+  color: #0891b2;
+}
+
+/* Add custom arrow/icon for the summary */
+details summary::before {
+  content: "ℹ️";
+  font-size: 14px;
+}
+
+/* Specific icons for variants */
+details.optional summary::before {
+  content: "📝";
+}
+
+details.manual summary::before {
+  content: "🔧";
+}
+
+/* Rotate the arrow when details are open */
+details[open] summary::before {
+  transform: rotate(90deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hide the default marker */
+details summary::marker {
+  display: none;
+}
+
+/* Style the content within the details tag */
+details > :not(summary) {
+  margin-top: 12px;
+  padding-left: 4px;
+}
+
+/* Ensure proper spacing */
+details > *:not(summary) {
+  margin-top: 12px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  details {
+    background-color: #1f2937;
+    border-color: #374151;
+  }
+
+  details.optional {
+    background-color: rgba(249, 115, 22, 0.1);
+    border-color: rgba(249, 115, 22, 0.3);
+  }
+
+  details.manual {
+    background-color: rgba(8, 145, 178, 0.1);
+    border-color: rgba(8, 145, 178, 0.3);
+  }
+
+  details summary {
+    color: #93c5fd;
+  }
+
+  details.optional summary {
+    color: #fb923c;
+  }
+
+  details.manual summary {
+    color: #22d3ee;
+  }
+}

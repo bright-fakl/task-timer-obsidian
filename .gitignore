@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+main.js
+*.js.map
+
+# Dependency lock files (optional - uncomment if you want to commit lock files)
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Obsidian settings file
+data.json
+
+# VitePress
+docs-site/.vitepress/dist
+docs-site/.vitepress/cache
+
+# Temporary files
+*.tmp
+*.temp
